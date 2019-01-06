@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Andersen</title>
+</head>
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title></title>
+</head>
+
+<body>
+
+    <section id="CV">
+
+        <div class="logo" style="max-width: 150px;">
+            <picture>
+
+                <source media="(min-width: 1920px)" srcset="Logo/Logo_150.png">
+                <source media="(min-width: 1024px)" srcset="Logo/Logo_100.png">
+                <source media="(min-width: 768px)" srcset="Logo/Logo_75.png">
+                <img src="Logo/Logo_50.png" alt="Logo/Logo.png">
+
+            </picture>
+
+        </div>
+
+        <Header>
+            <nav>
+
+                <ul>
+                    <li><a href="#forside.html">Forside</a></li>
+                    <li><a href="#CV.html">CV</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Tema</button>
+                        <div class="dropdown_content">
+                            <a href="#tema1">Tema 1 - Grundlæggende HTML</a>
+                            <a href="#tema2">Tema 2 - Grundlæggende video</a>
+                            <a href="#tema3">Tema 3 - Animation</a>
+                            <a href="#tema4">Tema 4 - Grundlæggende UX</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+
+        </Header>
+
+        <div id="hjerte"></div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlidesfade">
+                <img src="Marie/img1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlidesfade">
+                <img src="Marie/img2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlidesfade">
+                <img src="Marie/img3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlidesfade">
+                <img src="Marie/img4.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+
+    </html>

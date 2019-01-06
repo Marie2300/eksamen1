@@ -1,0 +1,430 @@
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+
+.logo {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+/**************** DROPDOWN MENU **************/
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    width: 90em;
+    margin: auto;
+    border-bottom: 2px solid #EDBCCC;
+    border-top: 2px solid #EDBCCC;
+    background-size: 100%;
+
+
+}
+
+nav ul li {
+
+    float: left;
+    text-align: center;
+    list-style: none;
+    background-size: 100%;
+
+
+
+}
+
+nav ul li a {
+    display: block;
+    font-family: Helvetica Neue;
+    color: ;
+    font-size: 30px;
+    padding: 0px 185px;
+    text-decoration: none;
+    background-size: 100%;
+
+
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 14px;
+    border-radius: 0px 0px 4px 4px;
+    background-size: 100%;
+
+}
+
+nav ul li:hover ul {
+    display: block;
+    border-right: 2px solid #EDBCCC;
+    border-left: 2px solid #EDBCCC;
+    background-size: 100%;
+
+
+}
+
+.dropbtn {
+    color: black;
+    padding: 0px;
+    padding-left: 200px;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    border: none;
+    background-size: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-size: 100%;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #EDBCCC;
+    left: 60px;
+    min-width: 150px;
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-size: 100%;
+}
+
+.dropdown_content a {
+    color: black;
+    padding: 18px 130px;
+    text-decoration: none;
+    display: block;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    background-size: 100%;
+}
+
+.dropdown_content a:hover {
+    background-color: #929292;
+    background-size: 100%;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+    background-size: 100%;
+}
+
+/**************** FORSIDE ********************/
+
+/**************** TEMA 1 ********************/
+
+#hjerte1 {
+    background-image: url("Splash/splash_1920_1080.png");
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+}
+
+.button {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 50px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+}
+
+/**************** TEMA 1 SLUT ********************/
+
+/**************** TEMA 2 ********************/
+
+.button1 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button1:hover {
+    background-color: #929292
+}
+
+.button1:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button2 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button2:hover {
+    background-color: #929292
+}
+
+.button2:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/**************** TEMA 2 SLUT ********************/
+/**************** TEMA 3 ********************/
+
+.button3 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button3:hover {
+    background-color: #929292
+}
+
+.button3:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button4 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button4:hover {
+    background-color: #929292
+}
+
+.button4:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button5 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button5:hover {
+    background-color: #929292
+}
+
+.button5:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/**************** TEMA 3 SLUT ********************/
+
+/**************** TEMA 4 ********************/
+
+.button6 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button6:hover {
+    background-color: #929292
+}
+
+.button6:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button7 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button7:hover {
+    background-color: #929292
+}
+
+.button7:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button8 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button8:hover {
+    background-color: #929292
+}
+
+.button8:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button9 {
+    background-color: #EDBCCC;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    height: 60px;
+    width: 700px;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 4px;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button9:hover {
+    background-color: #929292
+}
+
+.button9:active {
+    background-color: #3E3D3D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
