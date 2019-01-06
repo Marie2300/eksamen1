@@ -133,19 +133,32 @@ nav ul li:hover ul {
     background-color: #EDBCCC;
     /* Green */
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
-    height: 50px;
+    height: 60px;
     width: 700px;
     margin-top: 120px;
     margin-left: 500px;
     border-radius: 4px;
     background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.same {
+    font-family: Helvetica Neue;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.1em;
+    margin-top: -15px;
+    margin-left: -330px;
+    position: absolute;
+    z-index: 2;
 }
 
 /**************** TEMA 1 SLUT ********************/
@@ -158,8 +171,6 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
@@ -188,13 +199,11 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
     height: 60px;
-    width: 700px;
+    width: 730px;
     margin-top: 120px;
     margin-left: 500px;
     border-radius: 4px;
@@ -221,8 +230,6 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
@@ -251,8 +258,6 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
@@ -281,8 +286,6 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
@@ -315,8 +318,6 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
@@ -346,8 +347,6 @@ nav ul li:hover ul {
     color: black;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
     height: 60px;
@@ -375,8 +374,6 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
@@ -405,8 +402,6 @@ nav ul li:hover ul {
     border: none;
     color: black;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-family: Helvetica Neue;
     font-size: 30px;
@@ -427,4 +422,24 @@ nav ul li:hover ul {
     background-color: #3E3D3D;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+/**************** TEMA 4 SLUT ********************/
+
+/**************** 02.01.01_Pilotopgave********************/
+
+
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    margin-left: 200px;
+}
+
+.column {
+    flex-basis: 50px;
+    flex-grow: 1;
+    padding: 200px 0px 5px 10px;
 }
